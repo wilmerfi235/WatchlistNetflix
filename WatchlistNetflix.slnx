@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="Application/Application.csproj" />
+    <Project Path="Domain/Domain.csproj" />
+    <Project Path="Infrastructure/Infrastructure.csproj" />
+    <Project Path="WatchlistNetflix.Api/WatchlistNetflix.Api.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="WatchlistNetflix.Tests/WatchlistNetflix.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,192 @@
+# ============================================================
+# WATCHLIST NETFLIX
+# .NET 8 | Visual Studio 2026 | EF Core | MySQL | Vue 3
+# ============================================================
+
+# ------------------------------------------------------------
+# 1. Visual Studio
+# ------------------------------------------------------------
+
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.sln.ide
+
+# ------------------------------------------------------------
+# 2. .NET / MSBuild / NuGet
+# ------------------------------------------------------------
+
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Ll]ogs/
+
+*.dll
+*.exe
+*.pdb
+*.cache
+*.ilk
+*.obj
+*.pch
+*.idb
+*.ipch
+*.sdf
+*.opensdf
+*.ncb
+*.VC.db
+*.VC.VC.opendb
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/packages/
+
+# Publicación
+publish/
+PublishProfiles/
+*.publishsettings
+
+# ------------------------------------------------------------
+# 3. Visual Studio extensions / coverage
+# ------------------------------------------------------------
+
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+*.coverage
+*.coveragexml
+coverage/
+TestResults/
+*.trx
+
+# ------------------------------------------------------------
+# 4. JetBrains Rider
+# ------------------------------------------------------------
+
+.idea/
+*.sln.iml
+
+# ------------------------------------------------------------
+# 5. VS Code
+# ------------------------------------------------------------
+
+.vscode/*
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+!.vscode/settings.json
+
+# ------------------------------------------------------------
+# 6. Secrets and environment variables
+# ------------------------------------------------------------
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+secrets.json
+appsettings.*.local.json
+
+# User Secrets (no incluir datos locales)
+secrets/
+
+# Certificados y claves privadas
+*.pfx
+*.p12
+*.key
+*.pem
+*.crt
+*.cer
+
+# ------------------------------------------------------------
+# 7. Frontend Vue 3 / Node.js
+# ------------------------------------------------------------
+
+node_modules/
+dist/
+.nuxt/
+.output/
+.vite/
+coverage/
+
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# ------------------------------------------------------------
+# 8. Temporary files / operating systems
+# ------------------------------------------------------------
+
+*.tmp
+*.temp
+*.bak
+*.old
+*.orig
+*.swp
+*.swo
+*~
+
+# Windows
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# ------------------------------------------------------------
+# 9. Docker / local development data
+# ------------------------------------------------------------
+
+# Datos persistentes de contenedores
+docker-data/
+mysql-data/
+db-data/
+
+# Logs locales
+*.log
+
+# ------------------------------------------------------------
+# 10. Database local backups
+# ------------------------------------------------------------
+
+*.bak
+*.dump
+*.sqlite
+*.sqlite3
+
+# ------------------------------------------------------------
+# 11. Generated documentation / temporary reports
+# ------------------------------------------------------------
+
+*.generated.cs
+*.g.cs
+*.designer.cs
+
+# ------------------------------------------------------------
+# 12. Python (si se utilizan scripts auxiliares)
+# ------------------------------------------------------------
+
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# ------------------------------------------------------------
+# 13. Local tooling
+# ------------------------------------------------------------
+
+.dotnet/
+.tooling/
